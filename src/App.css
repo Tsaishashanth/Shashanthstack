@@ -122,10 +122,13 @@ body{
 }
 
 .montlycontainer{
+  margin-top:1rem;
+  margin-bottom:1rem;
   display:flex;
   background-color:#f3d8d8;
   border-radius: 20px;
   width:20%;
   justify-content:center;
   align-items:center;
+  height:4rem;
 }
