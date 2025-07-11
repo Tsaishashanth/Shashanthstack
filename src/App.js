@@ -44,6 +44,37 @@ function App() {
         </div>
       </div>
     </div>
+
+    {/* weekly work */}
+    <div className = "navbar dailywork">
+      <h1>Weekly Work</h1>
+    </div>
+
+    <div className= "weeklysection">
+      <div className ="weeklycontainers">
+        <h1>week1</h1>
+      </div>
+      <div className ="weeklycontainers">
+        <h1>week2</h1>
+      </div>
+      <div className ="weeklycontainers">
+        <h1>week3</h1>
+      </div>
+      <div className ="weeklycontainers">
+        <h1>week4</h1>
+      </div>
+    </div>
+
+    {/* montly work */}
+    <div className = "navbar dailywork">
+      <h1>Montly Work</h1>
+    </div>
+
+    <div className ="montlysection">
+      <div className = "montlycontainer">
+        <h1>july</h1>
+      </div>
+    </div>
     </>
   );
 }

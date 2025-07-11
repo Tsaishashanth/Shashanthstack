@@ -76,8 +76,56 @@ body{
   display:flex;
   height:5rem;
   width:30%;
-  background-color: #bfbfbf;
+  background-color: #f3d8d8;
   justify-content:center;
   align-items:center;
   border-radius:20px;
+}
+ 
+/* weekly container section */
+
+.weeklysection{
+  display:flex;
+  margin: 3rem auto;
+  justify-content:center;
+  align-items:center;
+  background-color:#303134;
+  width:70%;
+  height: auto;
+  gap:75px;
+  border-radius:20px;
+}
+
+.weeklycontainers{
+  display:flex;
+  margin-top:2rem;
+  margin-bottom:rem;
+  margin: 0 auto;
+  width:20%;
+  height: 3rem;
+  justify-content: center;
+  align-items:center;
+  background-color: #f3d8d8;
+  border-radius:20px;
+}
+
+/* montly section */
+.montlysection{
+  display:flex;
+  width:70%;
+  background-color:#303134;
+  margin: 3rem auto;
+  border-radius:20px;
+  height:auto;
+  justify-content:center;
+  align-items:center;
+}
+
+.montlycontainer{
+  display:flex;
+  background-color:#f3d8d8;
+  border-radius: 20px;
+  width:20%;
+  justify-content:center;
+  align-items:center;
 }
