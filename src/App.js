@@ -11,7 +11,7 @@ function App() {
     {/* about section */}
     <div className = "aboutcontainer">
       <div className= "abouttext">
-        <p>Welcome to Shashanth Stack — a place where I share my daily work, learning progress, and proof of what I've built.</p>
+        <p>A place where I share my daily work, learning progress, and proof of what I've built.</p>
       </div>
     </div>
 

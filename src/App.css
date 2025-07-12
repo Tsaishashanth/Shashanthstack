@@ -14,7 +14,7 @@ body{
   background-color:#5c5e6b;
   margin-top:2rem;
   border-radius:30px;
-  box-shadow: 0 4px 16px rgba(155, 165, 0, 0.3);
+  box-shadow: 0 0 15px rgba(125, 125, 255, 0.3);
 }
 
 /* about section */
@@ -27,8 +27,12 @@ body{
   width:55%;
   /* height: rem; */
   background-color: #bfbfbf;
-  border-radius: 10px;
-  box-shadow: 0 4px 16px rgba(155, 165, 0, 0.3);
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+
+}
+.abouttext{
+  font-size:1.2rem;
 }
 
 /* daily work section */
@@ -48,7 +52,11 @@ body{
   justify-content:center;
   align-items:center;
   background-color: #303134;
-  border-radius: 20px;
+  border-radius: 30px;
+  font-family: 'Lora', serif;
+}
+.containersection h1{
+  font-size:1.7rem;
 }
 
 .firstrow{
@@ -60,7 +68,7 @@ body{
   margin: 0 auto;
   margin-top:2rem;
   margin-bottom:2rem;
-  width:70%;
+  width:100%;
 }
 .secondrow{
   display:flex;
@@ -68,18 +76,24 @@ body{
   justify-content:center;
   align-items:center;
   gap:100px;
-  width:70%;
+  width:100%;
   margin-bottom:2rem;
 }
 
 .container{
   display:flex;
-  height:5rem;
-  width:30%;
+  height:3.5rem;
+  width:25%;
   background-color: #f3d8d8;
   justify-content:center;
   align-items:center;
   border-radius:20px;
+}
+.container:hover{
+  background-color: #f0bcbc;
+  box-shadow: 0 0 10px white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
  
 /* weekly container section */
@@ -92,8 +106,12 @@ body{
   background-color:#303134;
   width:70%;
   height: auto;
-  gap:75px;
+  /* gap:75px; */
   border-radius:20px;
+  font-family: 'Lora', serif;
+}
+.weeklycontainers h1{
+  font-size:1.8rem;
 }
 
 .weeklycontainers{
@@ -107,8 +125,16 @@ body{
   align-items:center;
   background-color: #f3d8d8;
   border-radius:20px;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  
 }
-
+.weeklycontainers:hover{
+  background-color: #f0bcbc;
+  box-shadow: 0 0 10px white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 /* montly section */
 .montlysection{
   display:flex;
@@ -119,6 +145,10 @@ body{
   height:auto;
   justify-content:center;
   align-items:center;
+  font-family: 'Lora', serif;
+}
+.montlysection h1{
+  font-size:1.7rem;
 }
 
 .montlycontainer{
@@ -131,4 +161,11 @@ body{
   justify-content:center;
   align-items:center;
   height:4rem;
+}
+
+.montlycontainer:hover{
+  background-color: #f0bcbc;
+  box-shadow: 0 0 10px white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
